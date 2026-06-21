@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="LIVE_URL_HERE" target="_blank">🚀 Live demo</a>
+  <a href="https://clientsideroutingbyjd.vercel.app/" target="_blank">🚀 Live demo</a>
 </p>
 
 <p align="center">
@@ -125,9 +125,7 @@ RouteHub is built with a clean route-first structure:
 
 ## Live demo / deployment
 
-Add your deployment URL once available:
-
-- **Live site:** `LIVE_URL_HERE`
+- **Live site:** https://clientsideroutingbyjd.vercel.app/
 
 ## Notes
 
