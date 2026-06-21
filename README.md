@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img width="80" src="https://raw.githubusercontent.com/nitinsmali/client-side-routing/main/public/icons.svg" alt="RouteHub logo" />
+  <img width="90" src="https://raw.githubusercontent.com/nitinsmali/client-side-routing/main/public/icons.svg" alt="RouteHub logo" />
 </p>
 
 <h1 align="center">RouteHub</h1>
@@ -10,7 +10,20 @@
 
 <p align="center">
   <a href="LIVE_URL_HERE" target="_blank">🚀 Live demo</a>
-  &nbsp;•&nbsp;
+</p>
+
+<p align="center">
+  <em>Trending stack made up of:</em>
+</p>
+
+<p align="center">
+  <img alt="React" src="https://img.shields.io/badge/React-19.2.6-61DAFB?logo=react&logoColor=white&style=flat-square" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-4.5.0-646CFF?logo=vite&logoColor=white&style=flat-square" />
+  <img alt="React Router" src="https://img.shields.io/badge/React_Router-7.18.0-CA4245?logo=reactrouter&logoColor=white&style=flat-square" />
+  <img alt="ESLint" src="https://img.shields.io/badge/ESLint-10.3.0-4B32C3?logo=eslint&logoColor=white&style=flat-square" />
+</p>
+
+<p align="center">
   <a href="#project-setup">Install</a>
   &nbsp;•&nbsp;
   <a href="#architecture">Architecture</a>
