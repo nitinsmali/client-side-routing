@@ -1,4 +1,22 @@
-﻿# RouteHub - React SPA with Client-Side Routing
+﻿<p align="center">
+  <img width="80" src="https://raw.githubusercontent.com/nitinsmali/client-side-routing/main/public/icons.svg" alt="RouteHub logo" />
+</p>
+
+<h1 align="center">RouteHub</h1>
+
+<p align="center">
+  <strong>React SPA</strong> with client-side routing, protected dashboard access, session persistence, and responsive UI.
+</p>
+
+<p align="center">
+  <a href="LIVE_URL_HERE" target="_blank">🚀 Live demo</a>
+  &nbsp;•&nbsp;
+  <a href="#project-setup">Install</a>
+  &nbsp;•&nbsp;
+  <a href="#architecture">Architecture</a>
+</p>
+
+## Overview
 
 RouteHub is a polished React single-page application built with Vite and `react-router-dom`. It demonstrates modern client-side routing, protected dashboard routes, session persistence, responsive cards, and a clean UI design.
 
@@ -13,12 +31,12 @@ RouteHub is a polished React single-page application built with Vite and `react-
 - Smooth hover and spacing transitions
 - Clean dashboard, activity, profile, and settings pages
 
-## Technologies
+## Stack
 
-- React 19
-- Vite
-- React Router DOM 7
-- ESLint
+- **React 19**
+- **Vite**
+- **React Router DOM 7**
+- **ESLint**
 
 ## Project setup
 
@@ -36,7 +54,29 @@ npm run build
 npm run preview
 ```
 
-## App structure
+## Architecture
+
+RouteHub is built with a clean route-first structure:
+
+- `src/App.jsx` — root routes and shared layout
+- `src/components/Layout.jsx` — navbar, auth action, and page wrapper
+- `src/components/ProtectedRoute.jsx` — guard for authenticated routes
+- `src/context/AuthContext.jsx` — session provider and auth state storage
+- `src/context/useAuth.js` — reusable auth hook
+- `src/utils/auth.js` — session persistence helpers
+- `src/pages/*` — page components for home, about, services, contact, login, and product details
+- `src/pages/dashboard/*` — nested dashboard pages for overview, profile, activity, and settings
+
+## Features
+
+- client-side single-page navigation
+- dynamic route parameters for product detail pages
+- nested protected dashboard routes
+- session storage with optional "remember me"
+- responsive hero, card grids, and page layout
+- smooth hover and motion styling
+
+## Routing overview
 
 - `src/App.jsx` — top-level route definitions and shared layout
 - `src/components/Layout.jsx` — navigation bar, auth button, and page wrapper
@@ -74,9 +114,10 @@ npm run preview
 
 Add your deployment URL once available:
 
-- Live site: `LIVE_URL_HERE`
+- **Live site:** `LIVE_URL_HERE`
 
 ## Notes
 
 - The project has been linted and built successfully.
-- If you want, I can also add a real backend authentication flow or deploy to Vercel/Netlify and set the live URL.
+- The app includes a polished home page, dashboard protection, and dynamic product routes.
+- I can also add deployment instructions for Vercel, Netlify, or GitHub Pages.
